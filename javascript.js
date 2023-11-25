@@ -30,7 +30,7 @@ noBtn.addEventListener("mouseover", () => {
       noBtn.style.left = randomX + "px";
       noBtn.style.top = randomY + "px";
       isDelayActive = false; // Reset the delay flag after shifting the button
-    }, 1000); // 2000 milliseconds = 2 seconds
+    }, 500); // 2000 milliseconds = 2 seconds
   }
 });
 
